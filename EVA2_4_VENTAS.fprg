@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-22 10:58:16 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjQtMDMtMDc7MDQ6MzM6MzEgcC4gbS47MjgzNg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjQtMDMtMDc7MDQ6NDM6NDcgcC4gbS47MTsyOTUy"/>
+        <attribute name="edited" value="SmVubmlzO0RFU0tUT1AtOTdBUjZRTzsyMDI0LTAzLTIyOzEwOjU4OjE2IHAuIG0uOzE7MzI0Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Pieza" type="Integer" array="False" size=""/>
+            <declare name="calcSaldo" type="Integer" array="False" size=""/>
+            <output expression="&quot;Numero de piezas&quot;" newline="True"/>
+            <input variable="Pieza"/>
+            <if expression="Pieza &gt; 1000">
+                <then>
+                    <assign variable="calcSaldo" expression="Pieza * 500"/>
+                </then>
+                <else>
+                    <assign variable="calcSaldo" expression="Pieza * 800"/>
+                </else>
+            </if>
+            <output expression="&quot;Total: &quot;" newline="True"/>
+            <output expression="calcSaldo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

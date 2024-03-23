@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-22 11:01:12 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjQtMDMtMDY7MDQ6NDQ6MTEgcC4gbS47MjgzNQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMzE5OzIwMjQtMDMtMDY7MDQ6NTE6NTQgcC4gbS47MTsyOTQ4"/>
+        <attribute name="edited" value="SmVubmlzO0RFU0tUT1AtOTdBUjZRTzsyMDI0LTAzLTIyOzExOjAxOjEyIHAuIG0uOzE7MzIzMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="califa" type="Real" array="False" size=""/>
+            <output expression="&quot;Introducir su calificacion: &quot;" newline="True"/>
+            <input variable="califa"/>
+            <if expression="califa &gt;= 70">
+                <then>
+                    <output expression="&quot;Felicidades, Pansaste&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#161;Esfuerzate mas!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
